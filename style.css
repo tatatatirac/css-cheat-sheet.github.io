@@ -1,6 +1,13 @@
-body{
-	background-color: lightgrey;
-	margin-left: 60px;
+body {
+	
+    background-image: url(css1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 300px;
+    background-color: lightgrey;
+
+
 }
 
 .home{
@@ -19,19 +26,22 @@ a{
 h1{
 	text-align: center;
 	font-size: 3rem;
-	border-bottom: 2px solid pink;
-	border-right: 2px solid pink ;
+	margin: 5%;
+	color: purple;
+	/*border-bottom: 2px solid pink;
+	border-right: 2px solid pink ;*/
 	/*border-right-angle: 45%;*/
-	font-family: fantasy;
-	width: 400px;
-	box-shadow: 4px 4px 4px purple;
+	/*font-family: fantasy;*/
+	/*width: 400px;*/
+	/*box-shadow: 4px 4px 4px purple;*/
 
 }
 
 h2{
 	text-align: left;
-	font-family: fantasy;
+	/*font-family: fantasy;*/
 
 }
+
 
 

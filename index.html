@@ -6,8 +6,8 @@
 
 	<style type="text/css">
 		aside {
-			  width: 30%;
-			  padding: 20px;
+			  width: 20%;
+			  padding: 30px;
 			  margin: 30px;
 			  float: left;
 			  background-color: silver;
@@ -30,45 +30,116 @@
 	<h2>Style sheet you can place into &lt;style&gt; into &lt;head&gt; section</h2>
 
 	<aside style="border:black solid 2px">
-		
-		&lt;!DOCTYPE html&gt;<br>
-		&lt;html&gt;<br>
-			<br>
-		&lt;head&gt;<br>
 
-		&lt;title&gt;Internal CSS&lt;/title&gt;<br>
+		<h2>HTML <br> (index.html)</h2><br>
+				
+				<p>&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+					
+				&lt;head&gt;<br>
 
-		<mark>&lt;style type="text/css"&gt;<br>
+				&lt;title&gt;Internal CSS&lt;/title&gt;<br>
 
-		body{<br>
-			background:grey;<br>
-				}<br>
+				<mark>&lt;style type="text/css"&gt;<br>
 
-		h1{<br>
-				color:red;<br>
-			}<br>
+				body{<br>
+					background:grey;<br>
+						}<br>
 
-			p{<br>
-					color:blue;<br>
-				}<br>
-			&lt;/style&gt;</mark> <br>
+				h1{<br>
+						color:red;<br>
+					}<br>
 
-	      &lt;/head&gt;<br>
-	  &lt;body&gt;<br>
-	    &lt;h1&gt;Internal CSS&lt;/h1&gt;<br>
+					p{<br>
+							color:blue;<br>
+						}<br>
+					&lt;/style&gt;</mark> <br>
 
-		&lt;p&gt;Color of background is GREY, heading is RED and paragraph is BLUE&lt;/p&gt;<br>
-	 &lt;/body&gt;<br>
-	&lt;/html&gt;<br>
+			      &lt;/head&gt;<br>
+			  &lt;body&gt;<br>
+			    &lt;h1&gt;Internal CSS&lt;/h1&gt;<br>
+
+				&lt;p&gt;Color of background is GREY, heading is RED and paragraph is BLUE&lt;/p&gt;<br>
+			 &lt;/body&gt;<br>
+			&lt;/html&gt;
+	</p><br>
 <br>
 	</aside>
 	<br><br>
-	<iframe src="./css/internal.html" width="50%" height="350" style="border:black solid 2px;" ></iframe>
+	<iframe src="./css/internal.html" width="50%" height="645" style="border:black solid 2px;" ></iframe>
+
+	<br><br><br><br><br><br><br><br><br><br><br>
+
+	<h1>External CSS</h1>		
+
+	<h2>Style sheet you can reference to the external style sheet file inside the &lt;link&gt; element, inside the &lt;head&gt; section.</h2>
+
+	<aside style="border: 2px solid black;">
+
+		<h2>HTML<br> (index.html)</h2><br>
+		
+		<p>
+			&lt;!DOCTYPE html &gt;<br>
+			&lt;html&gt;<br>
+			&lt;head&gt;<br>
+			&lt;title&gt;External CSS&lt;/title&gt;<br>
+			<mark>&lt;link rel="stylesheet" type="text/css" href="style_external.css"&gt;</mark><br>
+			&lt;/head&gt;<br>
+			&lt;body&gt;<br>
+			&lt;h1&gt;External CSS&lt;/h1&gt;<br>
+
+			&lt;p&gt;Color of background is GREY, heading is RED and paragraph is BLUE&lt;/p&gt;<br>
+
+			&lt;/body&gt;<br>
+			&lt;/html&gt;
+		</p>
+	</aside>
+	<aside style="border: 2px solid black;">
+
+		<h2>CSS <br>(style_external.css)</h2><br>
+			<p>body{<br>
+			background:grey;<br>
+			}<br>
+			<br>
+			h1{<br>
+				color:red;<br>
+			}<br>
+			<br>
+			p{<br>
+				color:blue;<br>
+			}</p><br><br><br>
+
+	</aside><br><br>
 
 
+	<iframe src="./css/external.html" width="30%" height="455" style="border: 2px solid black;" ></iframe>
 
+	<h1>Inline CSS</h1>		
+
+	<h2>And style sheet you can put inside the any element, inside/and the &lt;body&gt; section.</h2>
+
+	<aside style="border: 2px solid black;">
+
+		<h2>HTML<br> (index.html)</h2><br>
+		
+		<p>&lt;!DOCTYPE html&gt;<br>
+			&lt;html&gt;<br>
+			&lt;head&gt;<br>
+			&lt;title&gt;Inline CSS&lt;/title&gt;<br>
+			&lt;/head&gt;<br>
+			<mark>&lt;body style="background: grey;"&gt;</mark><br>
+			<mark>&lt;h1 style="color:red; "&gt;</mark>Inline CSS&lt;/h1&gt;<br>
+
+			<mark>&lt;p style="color: blue;"&gt;</mark>Color of background is GREY, heading is RED and paragraph is BLUE&lt;/p&gt;<br>
+
+			&lt;/body&gt;<br>
+			&lt;/html&gt;<br>
+		</p>
+	</aside><br><br>
 	
 
+
+	<iframe src="./css/inline.html" width="50%" height="435" style="border: 2px solid black;" ></iframe>
 
 
 </body>
