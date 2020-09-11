@@ -30,16 +30,7 @@ body {
     box-shadow: 4px 4px 4px purple;
 }
 
-#shor{
-    
-    text-align: right;
-    display: inline-flex;
-    font-size: 2rem;
-    list-style: none;
-    border-bottom: 2px solid;
-    
-   
-}
+
 
 .sub{
     text-align: left;
