@@ -1,0 +1,213 @@
+body {
+	
+    background-image: url(html.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 300px;
+    background-color: lightgrey;
+
+
+}
+
+h1 {
+    font-size: 4rem;
+	
+     text-align: center;
+    
+    margin:;
+    color: darkmagenta;
+}
+
+h2{
+	font-size: 4rem;
+    text-align: left;
+    font-family: fantasy;
+}
+
+h4{
+    text-align: right;
+    font-size:50px;
+   
+}
+
+.sub{
+    text-align: left;
+    font-family: fantasy;
+    font-size: 2rem;
+
+
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink ;
+    font-family: fantasy;
+    width: 400px;
+    box-shadow: 4px 4px 4px purple;
+
+}
+
+a{
+    display: block;
+    text-align: center;
+    color: black;
+    margin-left: 80px;
+
+}
+
+a:hover{
+
+	color: red;	
+
+}
+
+a:link {
+	text-decoration:none;
+
+	
+}
+#shor{
+    
+    text-align: right;
+    display: inline-flex;
+    font-size: 2rem;
+    list-style: none;
+    border-bottom: 2px solid;
+    
+   
+}
+
+li{
+    margin:1rem;
+    margin-bottom: 0.2rem;
+    font-family: fantasy;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+
+
+
+.selectors {
+    display: grid;
+    grid-gap: 90px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   /*grid-template-columns: repeat(1, min-content) 8fr;*/
+
+ }
+
+
+ .selectors:hover {
+
+    color: red;
+
+ }
+
+
+
+div {
+    display: block;
+}
+
+.tooltip {
+    position: inherit;
+    border-bottom: 1px dotted black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.css{
+    font-size: 2rem;
+    background: black;
+    color: silver;
+    border: 5px dashed white;
+    padding: 5%;
+
+}
+
+
+.a1{
+    color:magenta;
+    text-decoration: none;
+}
+
+.a1:hover{
+    color:red;
+}
+.a2{
+    color: cyan;
+    padding-left:0px;
+    text-decoration: none;
+    
+}
+.a2:hover{
+    color:red;
+}
+
+.a3{
+    color: cyan;
+    text-decoration: none;
+}
+
+.a3:hover{
+    color:red;
+}
+
+.home{
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  justify-content:center;
+  padding: 4rem;
+
+}
+
+h2, ul, li {
+    font-size: 2rem;
+    }
+
+ul{
+
+    color: blue;
+    padding: 30px;
+}
+
+
+aside{
+      width: 30%;
+      padding: 20px;
+      padding-right: 5px;
+      margin: 15px;
+      float: left;
+      background-color: silver;
+    }
+    
+
+
+
+
+

@@ -20,10 +20,38 @@ body {
 
 }
 
+.title{
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink ;
+    font-family: fantasy;
+    width: 400px;
+    box-shadow: 4px 4px 4px purple;
+}
+
+#shor{
+    
+    text-align: right;
+    display: inline-flex;
+    font-size: 2rem;
+    list-style: none;
+    border-bottom: 2px solid;
+    
+   
+}
+
+.sub{
+    text-align: left;
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
 .a1{
 	color:magenta;
 	text-decoration: blink;
 }
+
 .a1:hover{
 	color:red;
 }
@@ -44,6 +72,19 @@ body {
 
 .a3:hover{
 	color:red;
+}
+
+
+
+#shor{
+    
+    text-align: right;
+    display: inline-flex;
+    font-size: 2rem;
+    list-style: none;
+    border-bottom: 2px solid;
+    
+   
 }
 
 .home{
@@ -74,6 +115,12 @@ li{
 
 a{
 	margin: 80px;
+}
+
+a:link {
+	text-decoration:none;
+
+	
 }
 
 
