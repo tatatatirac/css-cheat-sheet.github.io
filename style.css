@@ -11,6 +11,41 @@ body {
 
 }
 
+.css{
+	font-size: 2rem;
+	background: black;
+	color: silver;
+	border: 5px dashed white;
+	padding: 5%;
+
+}
+
+.a1{
+	color:magenta;
+	text-decoration: blink;
+}
+.a1:hover{
+	color:red;
+}
+.a2{
+	color: cyan;
+	padding-left: 20%;
+	text-decoration: none;
+	
+}
+.a2:hover{
+	color:red;
+}
+
+.a3{
+	color: cyan;
+	text-decoration: none;
+}
+
+.a3:hover{
+	color:red;
+}
+
 .home{
   grid-column-start: 1;
   grid-column-end: span col4-start;
@@ -21,15 +56,32 @@ body {
 
 }
 
+h2, ul, li {
+	font-size: 2rem;
+	}
+
+ul{
+
+	color: blue;
+	padding: 30px;
+}
+
+li{
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+
+
 a{
 	margin: 80px;
 }
+
 
 h1{
 	text-align: center;
 	font-size: 3rem;
 	margin: 5%;
-	color: purple;
+	color: darkmagenta;
 	/*border-bottom: 2px solid pink;
 	border-right: 2px solid pink ;*/
 	/*border-right-angle: 45%;*/
