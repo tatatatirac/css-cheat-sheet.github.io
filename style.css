@@ -21,7 +21,7 @@ body {
 }
 
 .title{
-    text-align: center;
+    text-align: left;
     font-size: 3rem;
     border-bottom: 2px solid pink;
     border-right: 2px solid pink ;
@@ -72,8 +72,8 @@ body {
     text-align: right;
     display: inline-flex;
     font-size: 2rem;
-    list-style: none;
-    border-bottom: 2px solid;
+    /*list-style: none;*/
+    border-bottom: 2px black solid;
     
    
 }
@@ -90,22 +90,30 @@ body {
 
 h2, ul, li {
 	font-size: 2rem;
+	text-align: left;
+	display: inline-flex;
+	font-family: fantasy;
 	}
 
 ul{
-
+	text-align: left;
 	color: blue;
-	padding: 30px;
+	padding: 5px;
 }
 
 li{
-	padding-bottom: 15px;
-	padding-left: 20px;
+	
+	
 }
 
-
 a{
-	margin: 80px;
+	color: black;
+	margin-right: 1rem;
+}
+
+}
+a:hover{
+	color:red;
 }
 
 a:link {
@@ -116,9 +124,9 @@ a:link {
 
 
 h1{
-	text-align: center;
+	text-align: left;
 	font-size: 3rem;
-	margin: 5%;
+	/*margin: 5%;*/
 	color: darkmagenta;
 	/*border-bottom: 2px solid pink;
 	border-right: 2px solid pink ;*/
